@@ -1,0 +1,120 @@
+/* These styles are just to make it easier to see the blocks, initially. */
+
+body {
+
+	background-color: black;
+
+	font-family: monospace;
+	padding: 40px;
+}
+
+h1, h2, #channel-description {
+	text-align: center;
+	font-size: 14px;
+
+}
+
+ #channel-description {
+	 color: white;
+ }
+
+h1 {
+	font-size: 200px;
+	color: white;
+	font-family: din condensed;
+}
+
+.header {
+	position: sticky;
+	top: 0;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 32px;
+	color: white;
+	font-family: din condensed;
+	background-color: black;
+	width: 100%;
+	height: 80px;
+}
+
+.trailers-link {
+	color: #FF00FF;
+}
+
+.posters-link {
+	color: #6495ED;
+}
+
+.links-link {
+	color: #9FE2BF;
+}
+
+h3 {
+	font-size: 20px;
+
+}
+
+
+#channel-description > *,
+figure > *:not(:first-child),
+.description > *:not(:first-child),
+.content > *:not(:first-child) {
+	display: block;
+	margin-top: 1em;
+
+}
+
+.section {
+	background-color: black;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:center;
+}
+
+.section .title {
+	font-size: 20px;
+}
+
+.section .description,
+.section .link,
+.section .type {
+	display: none;
+}
+
+.section figure {
+	background-color: white;
+	color: black;
+	text-align: center;
+	margin: 30px;
+	width: 400px;
+	  text-overflow: ellipsis;
+}
+
+.section figure .title {
+	height: 20px;
+	text-align: center;
+}
+
+.section figure .image {
+	max-height: 360px;
+	object-fit: cover;
+}
+
+.section .image-block {
+	background-color: black;
+	color : #6495ED;
+}
+
+
+.section .video-embed-block {
+	background-color: black;
+	color : #FF00FF;
+}
+
+.section .link-block {
+	background-color: black;
+	color : #9FE2BF;
+}
+/* Clear them out once you’ve got your channel plugged in! */
